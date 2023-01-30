@@ -1,0 +1,102 @@
+Print "                  CURSE!!!!                           "
+Print " ARE YOU A PERSON WHO CAN TOLERATE THE CURSE OF LIFE... "
+Input "Are you that kind of person, Press 1 to enter the curse of your LIFE!!", I
+If I = 1 Then Print "let's begin" Else Print "sorry to go away:("
+If I > 1 Then End Else Input "What is your age ?", A
+If A < 18 Then Print "You are not eligible" Else Print "LEVEL 1"
+If A < 18 Then End Else Input "You are at your home its 3AM somebody knocks your door,will you open the door(1 to open the door)", G
+If G = 1 Then Print " a person with the knife tries to kill you" Else Print "Invalid Input"
+If G = 1 Then Input " Will you go to bedroom or living room(1 for bedroom and 0 for living room)", F
+If F = 1 Then Input "The killer is coming to the bedroom choose or DIE (1 to hide in closet or 0 to hide underbed)", E
+If F = 0 Then Print "You go to living room but it is an closed area and nowhere to hide, the killer caught you and now you are dead"
+If F = 0 Then Print "GAME OVER"
+If F = 0 Then End
+If E = 1 Then Print "The killer opens the closet and kills you"
+If E = 1 Then Print "GAME OVER"
+If E = 1 Then End
+If E = 0 Then Input "The killer opens the closet to find you but you are not there he goes to another room.Now choose or DIE you will go to living room or bathroom(1 for living room or 0 for bathroom)", B
+If B = 0 Then Print " The killer was present in bathroom,you are dead"
+If B = 0 Then Print "GAME OVER"
+If B = 1 Then Print "The killer entered in bathroom but he found nothing so he went out of the house."
+If B = 1 Then Input "Its your good time to runaway.You will run from frontdoor or backdoor(1 for frontdoor and 0 for backdoor).CHOOSE OR DIE", C
+If C = 0 Then Print " The killer was at backdoor you are dead."
+If C = 0 Then Print "GAME OVER"
+If C = 0 Then End
+If C = 1 Then Print "You ran away fromt the front door"
+If C = 1 Then Print "CONGRATULATIONS,you have completed LEVEL 1"
+If C = 1 Then Input "Ready for LEVEL 2(1 for yes and 0 for no)", D
+If D = 0 Then End
+If D = 1 Then Print "              LEVEL  2 - THE HAUNTED STREETS                   "
+Print " You : I should call the cops"
+Print " Picks up phone and call the cops"
+Print " Cops : Hello, this is sector 203 any problem "
+Print " You :  Hello, I am near the 22 Highway streets can you just bring..."
+Print " Cops : I want to talk to your parents "
+Print " You :  What? "
+Print " Cops : I want to talk to your parents "
+Print " Hangs out "
+Print " You : Now what should I do ?"
+Print " Uh, let me check if there is something through which I can escape. "
+Print " Instructions for LEVEL 2 "
+Print " 1. Remeber you have only 1 live "
+Print " 2. Random option will be given to choose. One of them will be correct."
+Print " 3. It's all on your luck "
+Print " 4. ALL THE BEST "
+Print " You are entering 22 Highway streets "
+Print " You are entering House no. 225 "
+Print " You pick a lockpick "
+Input " The door is locked. Want to use lockpick(1 for yes , 2 for no)", X
+If X = 1 Then Print " You opened the door "
+If X = 2 Then Print " Going to house no. 23....NOOOO!"
+If X = 2 Then Print "                        GAME  OVER !!!                     "
+If X = 2 Then End
+If X = 1 Then Print " You : Man this is so stinky!! "
+If X = 1 Then Input " Should I lock the gate? ( 1 for lock , 0 to keep open ) ", Y
+If Y = 1 Then Print " You lock the door "
+If Y = 0 Then Print " You left the door open "
+Input " Will you go to dining room or bedroom? ( 1 for bedroom , 0 for dining room)", Z
+If Z = 1 Then Input " You found a car key ( Enter 2 to collect )", P
+If Z = 0 Then Input " You found a smartphone( Enter 2 to collect )", Q
+If P = 2 Then Print " You collect the car key "
+If Q = 2 Then Print " You pick up the smartphone "
+If Y = 1 Then Print " You hear someone is trying to break the door "
+If Y = 0 Then Print " You hear someone opens the door "
+Print " Shit!! I am dead, he is back again. "
+If Z = 1 Then Print " I should go to garage to get the car. "
+If Z = 0 Then Print " I should just call someone from help if I can "
+If P = 2 Then Input " Press 1 to start the car ", R
+If Q = 2 Then Input " Press 1 to call someone for help", S
+If Z = 1 Then Print " The car is not starting. (Crying) I am gonna die " Else Print " Invalid Input "
+If Z = 0 Then Print " The network is not working. (Crying) I don't want to die. " Else Print " Invalid Input "
+Input " Press 5 to continue ", T
+If T > 5 Then End
+If T < 5 Then End
+Print " Door bangs "
+Print " You : Please I don't want to die...."
+Print " Mam we are cops we are not the killer "
+Print " We came as you called us "
+Print " You : THANK YOU , THANK YOU .."
+Print "                                 CONGRATULATIONS!!!!!                       "
+Print "                                YOU FINISHED THE GAME                       "
+Print " AFTER 5 YEARS "
+Print " Call incoming "
+Print " You : Hello this is Ana, whom am I speaking to ? "
+Print " Unkown : The person who tried to kill you 5 years ago. "
+Print " You : Why did you call me and what do you want from me ? "
+Print " Unkown : You know that you know me very well "
+Print " You : What? "
+Print " Unkown : I am no one but your brother who went missing 10 years ago, Ash. "
+Print " You : Ash YOU !!! "
+Print "                                  CURSE!!                                  "
+Print "                             TO BE CONTINUED...                            "
+Print " Credits :- "
+Print " Codewriter :- DESKTOP - EOQ987 "
+Print " Story maker :- DESKTOP - EOQ987 "
+Print " Application used :- QB64 "
+Print " Total lines of code used : 102 "
+Print "             THANK YOU FOR PLAYING THIS GAME , I HOPE YOU ENJOYED :)        "
+Input " Is there any bug / error in the game ?( Press 1 to report it or Press 2 to exit ) ", V
+If V = 2 Then End
+If V = 1 Then Print " For bug fixes please check my github page. "
+If V = 1 Then Print " THIS GAME WAS CREATED ONLY IN 5 MINS WITHOUT ANY PLANNING!! "
+End
