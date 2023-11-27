@@ -1,0 +1,183 @@
+BEEP
+Sleep 1
+Print "DELL BIOS Check v3.1"
+Sleep 0.6
+Print "Be innovative, Be productive"
+Sleep 2
+cls
+Print "System information" 
+Sleep 2
+Print "System:"
+Print "  Kernel: 5.15.0-89-generic x86_64 bits: 64 compiler: gcc v: 11.4.0 Desktop: Cinnamon 5.8.4"
+Print "tk: GTK 3.24.33 wm: muffin dm: LightDM Distro: Linux Mint 21.2 Victoria base: Ubuntu 22.04 jammy"
+Sleep 1.5
+Print "Machine:"
+Print "Type: Portable System: Dell product: Dell System Vostro 3450 v: N/A serial: <superuser required>"
+Print "Chassis: type: 8 v: 0.1 serial: <superuser required>"
+Print "Mobo: Dell model: 0K8WHD v: A00 serial: <superuser required> UEFI: Dell v: A13"
+Print "date: 09/26/2012 " 
+Sleep 1.5
+Print "Battery:"
+Print "ID-1: BAT0 charge: 8.2 Wh (100.0%) condition: 8.2/48.8 Wh (16.7%) volts: 12.5 min: 11.1"
+Print "model: LGC Dell serial: <filter> status: Full"
+Sleep 1.5
+Print "CPU:"
+Print "Info: dual core model: Intel Core i3-2310M bits: 64 type: MT MCP arch: Sandy Bridge rev: 7"
+Print "cache: L1: 128 KiB L2: 512 KiB L3: 3 MiB"
+Print "Speed (MHz): avg: 1372 high: 1826 min/max: 800/2100 cores: 1: 1386 2: 1188 3: 1089 4: 1826"
+Print "bogomips: 16745"
+Print "Flags: avx ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx"
+Sleep 1.5
+Print "Graphics:"
+Print "Device-1: Intel 2nd Generation Core Processor Family Integrated Graphics vendor: Dell"
+Print "driver: i915 v: kernel ports: active: LVDS-1 empty: DP-1,HDMI-A-1,VGA-1 bus-ID: 00:02.0"
+Print "hip-ID: 8086:0116"
+Sleep 1.5 
+Print "Device-2: AMD Whistler [Radeon HD 6630M/6650M/6750M/7670M/7690M] vendor: Dell driver: radeon"
+Print "v: kernel pcie: speed: 5 GT/s lanes: 16 bus-ID: 01:00.0 chip-ID: 1002:6741"
+Sleep 1.5
+Print " Device-3: Sunplus Innovation SunplusIT PC Camera type: USB driver: uvcvideo bus-ID: 1-1.4:5"
+Print "chip-ID: 1bcf:0b01"
+Sleep 1.5
+Print "Device-4: Logitech Webcam C310 type: USB driver: snd-usb-audio,uvcvideo bus-ID: 2-1.3:4"
+Print "chip-ID: 046d:081b"
+Sleep 1.5 
+Print "Display: x11 server: X.Org v: 1.21.1.4 driver: X: loaded: ati,modesetting,radeon"
+Print "unloaded: fbdev,vesa gpu: i915 display-ID: :0 screens: 1"
+Print "Screen-1: 0 s-res: 1366x768 s-dpi: 96"
+Print "Monitor-1: LVDS-1 model: AU Optronics res: 1366x768 dpi: 112 diag: 354mm (13.9')"
+Print "OpenGL: renderer: Mesa Intel HD Graphics 3000 (SNB GT2) v: 3.3 Mesa 23.0.4-0ubuntu1~22.04.1"
+Print " direct render: Yes"
+Sleep 2
+Print "Audio:"
+Print "Device-1: Intel 6 Series/C200 Series Family High Definition Audio vendor: Dell"
+Print "driver: snd_hda_intel v: kernel bus-ID: 00:1b.0 chip-ID: 8086:1c20"
+Sleep 2
+Print "Device-2: Logitech Webcam C310 type: USB driver: snd-usb-audio,uvcvideo bus-ID: 2-1.3:4"
+Print "chip-ID: 046d:081b"
+Sleep 1.5 
+Print "Sound Server-1: ALSA v: k5.15.0-89-generic running: yes"
+Print "Sound Server-2: PulseAudio v: 15.99.1 running: yes"
+Print "Sound Server-3: PipeWire v: 0.3.48 running: yes"
+Sleep 2
+Print "Network:"
+Print "Device-1: Intel Centrino Wireless-N 1030 [Rainbow Peak] driver: iwlwifi v: kernel pcie:"
+Print "speed: 2.5 GT/s lanes: 1 bus-ID: 02:00.0 chip-ID: 8086:008a"
+Print "IF: wlp2s0 state: up mac: <filter>"
+Sleep 1.5
+Print "Device-2: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet vendor: Dell driver: r8169"
+Print "v: kernel pcie: speed: 2.5 GT/s lanes: 1 port: 3000 bus-ID: 04:00.0 chip-ID: 10ec:8168"
+Print "IF: enp4s0 state: down mac: <filter>"
+Sleep 2
+Print "Bluetooth:"
+Print "Device-1: Intel Centrino Advanced-N 6230 Bluetooth adapter type: USB driver: btusb v: 0.8"
+Print "bus-ID: 2-1.5:5 chip-ID: 8086:0189"
+Print "Report: hciconfig ID: hci0 rfk-id: 0 state: up address: <filter> bt-v: 2.0 lmp-v: 3.0"
+Print "sub-v: fc00"
+Sleep 2
+Print "Drives:"
+Print "Local Storage: total: 465.76 GiB used: 26.58 GiB (5.7%)"
+Print "ID-1: /dev/sda vendor: Seagate model: ST500LM030-2E717D size: 465.76 GiB speed: 6.0 Gb/s"
+Print "serial: <filter>"
+Sleep 2
+Print "Sensors:"
+Print "System Temperatures: cpu: 55.0 C mobo: 41.0 C sodimm: SODIMM C gpu: radeon temp: 45.5 C"
+Print "Fan Speeds (RPM): cpu: 3208"
+Sleep 3.5
+BEEP
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1
+BEEP
+Print "ERROR"
+Sleep 1.2
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1.5 
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 1.5
+Beep
+Print "ERROR"
+Sleep 3
+cls
+Beep
+Print "There is an error in the BIOS file of the system"
+Print "Error : The BIOS in the system is not OEM"
+Sleep 1.5
+cls
+Beep
+Print "Reinstalling the BIOS vA13"
+Print "--------------------------"
+Sleep 2
+Beep
+Print "--------------------------"
+Print "            20%           " 
+Print "--------------------------" 
+Print ""
+Print ""
+Sleep 1.5
+Beep
+Print "--------------------------"
+Print "            38%           "
+Print "--------------------------"
+Print ""
+Print ""
+Sleep 2.5
+Beep
+Print "--------------------------"
+Print "            60%           "
+Print "--------------------------"
+Print ""
+Print ""
+Sleep 3 
+Beep
+Print "--------------------------"
+Print "           90%            "
+Print "--------------------------" 
+Print ""
+Print ""
+Sleep 2
+Beep 
+Print "--------------------------"
+Print "          100%            "
+Print "--------------------------"
+Print ""
+Print ""
+Sleep 2 
+Print "BIOS Repair Complete" 
+Sleep 2
+Print "Booting into ST500LM030-2E717D......"
+Sleep 1.5
+cls
+Beep
+Print "No Operating System found...."
+Sleep 1.5
+CLS
+BEEP
+Print "Dell Boot Options" 
+Print "1. Ubuntu"
+Print "2. ST500LM030-2E717D"
+Print "3. Optiac CD/DVD DRIVE"
+Print "4. Onboard NIC (IPV4)"
+Print "5. Onboard NIC (IPV6)"
+Print "6. Diagnostics " 
+Print ""
+Print "BIOS Setup"
